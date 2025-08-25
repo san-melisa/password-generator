@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    
+    background-color: #1F2937;
+    margin: 50px;
+    padding: 60px 40px 100px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: flex-start;
+
+}
+
+h1 {
+    font-weight: 800;
+    color: #FFFFFF;
+    font-size: 3em;
+    margin-bottom: 4px;
+
+}
+
+span {
+    color: #10B981;
+}
+
+p {
+    margin-top: 4px;
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 1.5em;
+    font-family: "Inter", sans-serif;
+}
+
+.generate-btn {
+    background-color: #10B981;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    margin-top: 25px;
+}
+
+.line {
+     width: 100%;
+    border: none;
+    border-top: 1px solid #2F3E53;
+    margin: 30px 0;
+
+}
+
+.box {
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    border-radius: 5px;
+
+    
+}
+
+.box p {
+    color: #55F991;
+    font-size: 1em;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.box-container {
+    display: flex;
+    gap: 20px;
+
+}
+
+.copy-message {
+    color: #D5D4D8;
+    font-size: 0.9em;
+    margin: 10px 40px;
+    font-style: italic;
+
+}
