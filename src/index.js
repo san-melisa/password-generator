@@ -43,7 +43,7 @@ function copyPassword(elementId)
             messageEl.textContent = "Passwpord copied!"
             setTimeout(() => {
                 messageEl.textContent = "";
-            },200000)
+            },2000)
         })
         .catch(err => {
             console.error("Can not copied", err)
