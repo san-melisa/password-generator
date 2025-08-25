@@ -89,3 +89,24 @@ p {
     font-style: italic;
 
 }
+
+@media (max-width: 768px) {
+    body {
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+
+    .container {
+        width: 90%; 
+        margin: 20px auto; 
+        padding: 40px 20px; 
+    }
+
+    .box-container {
+        flex-direction: column;
+        gap: 15px; 
+        width: 40%;
+    }
+
+
+}
