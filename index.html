@@ -7,12 +7,32 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Password Generator</title>
     </head>
     <body>
         <div class="container">
             <h1>Generate a </br> <span>random password</span></h1>
             <p>Never use an insecure password again.</p>
             <button onclick="generatePasswords()" class="generate-btn">Generate passwords</button>
+            <div class="toggle-container">
+                <div class="toggle-item">
+                    <label class="switch" aria-label="Toggle to include numbers">
+                    <input type="checkbox" id="number-toggle" checked>
+                    <span class="slider round"></span>
+                    </label>
+                    <div class="label-text">Toggle to include numbers</div>
+
+                </div>
+                    <div class="toggle-item">
+                        <label class="switch" aria-label="Toggle to include symbols">
+                        <input type="checkbox" id="symbol-toggle" checked>
+                        <span class="slider round"></span>
+                        </label>
+                        <div class="label-text">Toggle to include symbols</div>
+                </div>
+            </div>
             <hr class="line">
             <div class="box-container">
                 <div class="box" onclick="copyPassword('first-password')"> 
